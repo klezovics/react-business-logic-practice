@@ -12,6 +12,7 @@ function App() {
 
     return (
         <>
+            {/*Redux needs a wrapper, but Zustand doesn't*/}
             <Provider store={store}>
                 <h1>Hi</h1>
                 <DisplayData/>
